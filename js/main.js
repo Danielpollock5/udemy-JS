@@ -417,9 +417,9 @@
 // });
 
 
-//========================================================
-//------------------SCORE KEEPING APP---------------------
-//========================================================
+//========================================================\\
+//------------------SCORE KEEPING APP---------------------\\
+//========================================================\\
 // var p1Button = document.querySelector("#pOne")
 // var p2Button = document.querySelector("#pTwo")
 // var resetButton = document.querySelector("#reset")
@@ -478,37 +478,81 @@
 // 	winningScore = Number(numInput.value)
 // 	reset();
 // })
-//========================================================
-//------------------SCORE KEEPING APP---------------------
-//========================================================
+//========================================================\\
+//------------------SCORE KEEPING APP---------------------\\
+//========================================================\\
 
 
-var lis = document.querySelectorAll('li')
+// var lis = document.querySelectorAll('li')
 
-for(var i = 0; i <lis.length; i++){
-	lis[i].addEventListener('mouseover', function(){
-		this.classList.add('selected')
-	});
-	lis[i].addEventListener('mouseout', function(){
-		this.classList.remove('selected')
-	})
-	lis[i].addEventListener('click', function(){
-		this.classList.toggle('done')
+// for(var i = 0; i <lis.length; i++){
+// 	lis[i].addEventListener('mouseover', function(){
+// 		this.classList.add('selected')
+// 	});
+// 	lis[i].addEventListener('mouseout', function(){
+// 		this.classList.remove('selected')
+// 	})
+// 	lis[i].addEventListener('click', function(){
+// 		this.classList.toggle('done')
 
-	})
-}
+// 	})
+// }
 
-
-
-
-
-
+//========================================================\\
+//------------------jQuery Starts Here--------------------\\
+//========================================================\\
 
 
+// $("div").css("background", "purple")
 
+// $(".highlight").css('width', '200px')
 
+// $("#third").css('border', '2px solid orange')
 
+// $('div:first-of-type').css('color', 'pink')
+ 
 
+// var arr = [1,2,6443,234,52,768,7]
+// 	// arr.reverse()
+// 	// 	console.log(arr)
+// 	// arr.sort()
+// 	// arr.push('meow')
+// 	arr.shift()
+// 			console.log(arr)
 
+// var crab = {
+// 	name: 'Crustacean',
+// 	seats: 150,
+// 	food: 'crab'
+// }
+
+// var taco = {
+// 	name: "taco Bell",
+// 	seats: 75,
+// 	food: 'tacos'
+// }
+
+// var pizza = {
+// 	name: "round table pizza",
+// 	seats: 50,
+// 	food: pizza
+// }
+
+// function Restaurants(name, seats, booked, food){
+// 	this.name = name
+// 	this.seats = seats
+// 	this.booked = booked
+// 	this.food = food
+// 	this.avaliableSeats = function(){
+// 		return(this.seats - this.booked)
+// 	}
+// }
+
+// var mcDonalds = new Restaurants('McDonalds', 50, 5, 'burger and fries')
+// var burgerKing = new Restaurants('Burger King', 50, 55, 'better burgers and not so better fries')
+// var harrisRanch = new Restaurants('Harris Ranch', 150, 145, 'Steak')
+// console.log(mcDonalds.avaliableSeats())
+
+// $('input').val()
 
 

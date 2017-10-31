@@ -14,3 +14,16 @@ body{
 .selected{
 	color: green;
 }
+
+.correct{
+	color: green;
+}
+
+.wrong{
+	color: red;
+	background-color: pink;
+}
+.done{
+	color: gray;
+	text-decoration: line-through;
+}
